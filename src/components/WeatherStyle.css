@@ -1,0 +1,49 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.Input-field {
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  height: 36px;
+  margin: 16px 16px 16px 16px;
+}
+h1 {
+  font-family: oswald;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+}
+h2 {
+  font-family: "oswald";
+  font-weight: 800;
+  line-height: 1em;
+}
+sup {
+  font-family: "oswald";
+  font-weight: 400;
+  line-height: 1em;
+}
+
+h3 {
+  font-family: "Montserrat";
+  margin-top: 4em;
+  font-size: 30px;
+  line-height: 1.1em;
+  font-weight: 600;
+}
+p {
+  font-family: oswald;
+  letter-spacing: 0.55px;
+  font-size: 16px;
+}
